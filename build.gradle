@@ -13,8 +13,6 @@ dependencies {
     implementation 'org.testng:testng:7.3.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
-    testImplementation group: 'org.testng', name: 'testng', version: '7.3.0'
-    compile group: 'org.json', name: 'json', version: '20180813'
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.0.0-beta-4'
     testImplementation group: 'org.slf4j', name: 'slf4j-simple', version: '2.0.0-alpha1'
     implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '4.4.3'
