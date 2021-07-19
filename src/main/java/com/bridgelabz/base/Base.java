@@ -18,6 +18,7 @@ public class Base {
         //Enter the URL of Application
         driver.get("https://www.flipkart.com/");
     }
+
     //After execution
     @AfterTest
     public void tearDown() {

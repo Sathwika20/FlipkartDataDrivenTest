@@ -5,8 +5,6 @@ import com.bridgelabz.base.Base;
 import com.bridgelabz.pages.Login;
 import com.bridgelabz.pages.Logout;
 import com.bridgelabz.utils.ReadExcelFile;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

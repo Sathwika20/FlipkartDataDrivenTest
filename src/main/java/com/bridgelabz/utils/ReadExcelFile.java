@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class ReadExcelFile {
     @DataProvider(name = "data-provider")
-    public static Object[][] testData() throws IOException {
+    public static Object[][] testData(){
         //creating the object for ExcelUtils Class
         ExcelUtils excel = new ExcelUtils("ExcelData.xlsx", "Sheet1");
         int rowCount = excel.getRowCount();

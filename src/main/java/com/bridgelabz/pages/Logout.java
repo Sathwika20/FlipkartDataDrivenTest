@@ -7,17 +7,13 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Logout {
-
-    private WebDriver driver;
+public class Logout extends Base {
 
     @FindBy(xpath = "//div[@class = '_28p97w']")
     private WebElement sathwika;
+
     @FindBy(xpath = "//div[text() = 'Logout']")
     private WebElement logout;
-
-    @FindBy(xpath = "//a[text() = 'Login']")
-    private WebElement login;
 
     //Generate a constructor
     public Logout(WebDriver driver) {
