@@ -7,13 +7,14 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class CrossBrowserBase {
     public static WebDriver driver;
     @BeforeTest
     @Parameters("browser")
-    public void setUp(String browser) throws InterruptedException {
+    public void setUp(@Optional("Chrome") String browser) throws InterruptedException {
         if(browser.equalsIgnoreCase("firefox")){
            WebDriverManager.firefoxdriver().setup();
            driver = new FirefoxDriver();

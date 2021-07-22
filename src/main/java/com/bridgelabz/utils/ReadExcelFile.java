@@ -2,8 +2,6 @@ package com.bridgelabz.utils;
 
 import org.testng.annotations.DataProvider;
 
-import java.io.IOException;
-
 public class ReadExcelFile {
     @DataProvider(name = "data-provider")
     public static Object[][] testData(){

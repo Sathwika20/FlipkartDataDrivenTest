@@ -3,7 +3,7 @@
 <suite name="suite1">
 
     <test name="ChromeTest">
-        <parameter name="browser" value="chrome" />
+<!--        <parameter name="browser" value="chrome" />-->
         <classes>
             <class name="com.bridgelabz.base.CrossBrowserBase">
                 <methods>
